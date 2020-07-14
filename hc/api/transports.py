@@ -579,7 +579,6 @@ class Zulip(HttpTransport):
         return self.post(url, data=data, auth=auth)
 
 
-
 class Spike(HttpTransport):
     def notify(self, check):
         url = self.channel.value
